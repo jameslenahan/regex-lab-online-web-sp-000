@@ -1,4 +1,4 @@
-def starts_with_a_vowel?(a, e, i, o, u)
+def starts_with_a_vowel?/[aeiou]/
   
 end
 
