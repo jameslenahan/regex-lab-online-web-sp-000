@@ -16,7 +16,7 @@ def words_return_array(text)
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
-
+  text.scan(/ABCDEFGHIJKLMNOPQRSTUVWXYZ\w+\!?.,/)
 end
 
 def valid_phone_number?(phone)
