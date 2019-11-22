@@ -10,7 +10,7 @@ def words_starting_with_un_and_ending_with_ing(text)
   text.scan(/un\w+ing/)
 end
 
-def words_return_array
+def words_return_array(text)
   return_array = text.split(" ")
   return_array.grep(/\b\w{5}\b/)
 end
